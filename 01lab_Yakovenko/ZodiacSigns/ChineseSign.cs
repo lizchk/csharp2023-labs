@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01lab_Yakovenko.ZodiacSigns
+﻿namespace _01lab_Yakovenko.ZodiacSigns
 {
-    public enum ChineseSign
+    internal enum ChineseSign
     {
+        Monkey,
+        Rooster,
+        Dog,
+        Pig,
         Rat,
         Ox,
         Tiger,
@@ -15,10 +13,6 @@ namespace _01lab_Yakovenko.ZodiacSigns
         Dragon,
         Snake,
         Horse,
-        Goat,
-        Monkey,
-        Rooster,
-        Dog,
-        Pig
+        Goat
     }
 }

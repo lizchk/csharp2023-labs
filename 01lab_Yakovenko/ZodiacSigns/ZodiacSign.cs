@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01lab_Yakovenko.ZodiacSigns
+﻿namespace _01lab_Yakovenko.ZodiacSigns
 {
-    public enum ZodiacSign
+    internal enum ZodiacSign
     {
         Aries,
         Taurus,
