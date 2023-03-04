@@ -26,7 +26,7 @@
         <TextBlock Text="{Binding ChineseSign, Mode=OneWay}" FontFamily="Georgia" FontWeight="Heavy" FontSize="20" HorizontalAlignment="Right" 
                    VerticalAlignment="Top" Margin="0,330,80,0"/>
         <Button Content="Show my zodiac signs!" BorderBrush="DeepSkyBlue" Background="LightSkyBlue" BorderThickness="3" Width="150" Height="50" 
-                Margin="0,80,0,0" Command="{Binding ShowSign}"/>
+                Margin="0,80,0,0" Command="{Binding ShowSignsCommand}"/>
 
     </Grid>
 </UserControl>
