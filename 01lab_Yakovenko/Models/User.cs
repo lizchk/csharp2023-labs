@@ -10,13 +10,14 @@ namespace _01lab_Yakovenko.Models
     internal class User
     {
         private int _age;
-        private DateTime _dateOfBirth;
+        private DateTime _dateOfBirth = DateTime.Today;
         private ZodiacSign _westernSign;
         private ChineseSign _chineseSign;
 
-        public int Age {
+        public int Age
+        {
             get { return _age; }
-            set { _age = value; } 
+            set { _age = value; }
         }
         public DateTime DateOfBirth
         {
